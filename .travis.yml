@@ -8,6 +8,7 @@ r_packages:
 addons:
   apt:
     packages:
+      - gnutls-bin
       - librdf0-dev
 script:
     - Rscript -e 'curl::curl_version()'
