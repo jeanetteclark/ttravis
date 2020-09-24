@@ -5,5 +5,8 @@ cache: packages
 addons:
   apt:
     packages:
+      - libraptor2-dev #dependancy
+      - librasqal3-dev #dependancy
       - librdf0-dev #dataone
       - libcurl4-openssl-dev
+
