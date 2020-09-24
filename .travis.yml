@@ -11,6 +11,6 @@ addons:
       - libcurl4-gnutls-dev
       - librdf0-dev
 script:
-    - Rscript -e 'curl::curl_version()'
+    - R 'get_curl_info.R'
 
 
