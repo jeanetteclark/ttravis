@@ -10,6 +10,6 @@ addons:
     packages:
       - librdf0-dev
 script:
-    - Rscript -e 'R/get_curl_info.R'
+    - Rscript -e 'curl::curl_version()'
 
 
