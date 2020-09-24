@@ -6,6 +6,6 @@ addons:
   apt:
     packages:
       - librdf0-dev #dataone
-      - libopenssl-dev
+      - libcurl4-openssl-dev
 
 
