@@ -8,5 +8,6 @@ addons:
       - libraptor2-dev #dependancy
       - librasqal3-dev #dependancy
       - librdf0-dev #dataone
-      - libcurl4-openssl-dev
+      - libcurl4-openssl-dev #curl problem
+      - libcurl4-gnutls-dev #other dep?
 
