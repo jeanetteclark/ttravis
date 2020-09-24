@@ -1,5 +1,5 @@
 
 cn <- dataone::CNode("PROD")
-adc <- dataone::MNode("urn:node:ARCTIC")
+adc <- dataone::getMNode(cn, "urn:node:ARCTIC")
 
 print(adc)
