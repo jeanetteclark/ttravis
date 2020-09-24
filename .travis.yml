@@ -2,10 +2,14 @@
 
 language: R
 cache: packages
+r_packages:
+    - curl
+    - dataone
 addons:
   apt:
     packages:
-     # - librdf0-dev #dataone
       - librdf0-dev
+script:
+    - Rscript -e 'R/get_curl_info.R'
 
 

@@ -6,7 +6,6 @@
 #'
 #' @examples
 nodes <- function(){
-  # cn <- dataone::CNode("PROD")
-  # adc <- dataone::MNode("urn:node:ARCTIC")
-  3 + 4
+  cn <- dataone::CNode("PROD")
+  adc <- dataone::MNode("urn:node:ARCTIC")
 }
