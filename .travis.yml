@@ -2,13 +2,14 @@
 
 language: R
 cache: packages
+before_install:
+  - sudo add install libcurl4-gnutls-dev
 r_packages:
     - curl
     - dataone
 addons:
   apt:
     packages:
-      - libcurl4-gnutls-dev
       - librdf0-dev
 script:
     - Rscript get_curl_info.R
