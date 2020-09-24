@@ -5,7 +5,7 @@ cache: packages
 addons:
   apt:
     packages:
-      - librdf0-dev #dataone
+     # - librdf0-dev #dataone
       - libcurl4-openssl-dev
 
 
