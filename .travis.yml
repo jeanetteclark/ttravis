@@ -7,4 +7,6 @@ addons:
     packages:
       - librdf0-dev #dataone
       - libcurl4
+      - libopenssl
+
 
